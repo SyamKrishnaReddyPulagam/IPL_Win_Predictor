@@ -21,6 +21,8 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
 pipe = pickle.load(open('IPL_predictor.pkl','rb'))
 st.title('IPL Win Predictor')
 
+st.image("ipl.png",width=500)
+
 col1, col2 = st.columns(2)
 
 with col1:
